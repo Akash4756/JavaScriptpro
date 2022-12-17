@@ -10,9 +10,14 @@ var menus = [
     { "item": "Paneer Rolls", "price": 130 }
 ]
 
+
 $(document).ready(function () {
     binMenuDDl()
 })
+
+function AddItem() {
+    var tbl="<table></table>"
+}
 
 function binMenuDDl() {
     var op = "<option value='-1'>Select</option>"
