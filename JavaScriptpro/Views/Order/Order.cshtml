@@ -1,6 +1,7 @@
 ﻿@{ 
     Layout = "_Layout";
 }
+
 <div class="row">
     <div class="col-7 offset-3">
         <div class="card">
@@ -15,12 +16,13 @@
                             <select id="ddlMenu" class="form-control">
                                 <option value="-1">Select</option>
                             </select>
+                            <span id="lblPrice"></span>
                         </div>
                     </div>
                     <div class="col-5">
                         <div class="form-group">
                             <label>Enter quantity</label>
-                            <input type="number" id="txtQuantity" class="form-control" />
+                            <input type="number" id="txtQuantity" class="form-control" value="0"/>
                         </div>
                     </div>
                     <div class="col-2">

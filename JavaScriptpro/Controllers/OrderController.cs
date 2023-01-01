@@ -12,5 +12,9 @@ namespace JavaScriptpro.Controllers
         {
             return View();
         }
+        public IActionResult SampleForm()
+        {
+            return View();
+        }
     }
 }
